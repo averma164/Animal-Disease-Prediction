@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Raw images
+rawdata/
+
+# Generated datasets
+prepared_dataset/
+dataset_split/
+
+# Generated CSV files
+image_master.csv
+image_master_cleaned.csv
+disease_distribution.csv
+animal_disease_distribution.csv
+label_cleaning_report.csv
+cleaned_dataset_verification.csv
+dataset_preparation_report.csv
+
+# Class mapping generated files
+class_mapping/
+
+# Inspection files
+mastitis_inspection/
+mastitis_inspection.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
