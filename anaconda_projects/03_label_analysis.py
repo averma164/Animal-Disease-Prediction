@@ -9,8 +9,7 @@ from pathlib import Path
 # -----------------------------
 # PATHS
 # -----------------------------
-BASE_DIR = Path(r"D:\Animal disease Prediction")
-
+BASE_DIR = Path(__file__).resolve().parent.parent
 CSV_FILE = BASE_DIR / "image_master.csv"
 
 # -----------------------------

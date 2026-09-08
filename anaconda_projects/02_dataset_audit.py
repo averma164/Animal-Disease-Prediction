@@ -6,7 +6,7 @@ from PIL import Image
 # 1. PATHS
 # ============================================================
 
-BASE_DIR = r"D:\Animal disease Prediction"
+BASE_DIR = r"D:\Animal disease Prediction\Animal-Disease-Prediction"
 
 IMAGE_MASTER = os.path.join(
     BASE_DIR,

@@ -1,12 +1,13 @@
 import os
 import pandas as pd
 import shutil
+from pathlib import Path
 
 # ============================================================
 # CONFIGURATION
 # ============================================================
 
-BASE_DIR = r"D:\Animal disease Prediction"
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 CLEANED_CSV = os.path.join(
     BASE_DIR,
@@ -42,7 +43,7 @@ print("=" * 70)
 df = pd.read_csv(CLEANED_CSV)
 
 mastitis_df = df[
-    df["disease"].astype(str).str.strip() == "mastitis normal"
+    df["disease"].astype(str).str.strip().str.lower().str.replace("_", " ") == "mastitis normal"
 ].copy()
 
 print(f"Total dataset images : {len(df)}")

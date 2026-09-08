@@ -1,13 +1,14 @@
 import os
 import json
 import pandas as pd
+from pathlib import Path
 from collections import Counter
 
 # ============================================================
 # CONFIGURATION
 # ============================================================
 
-BASE_DIR = r"D:\Animal disease Prediction"
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 TRAIN_CSV = os.path.join(
     BASE_DIR, "dataset_split", "train.csv"

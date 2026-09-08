@@ -8,7 +8,7 @@ import shutil
 # CONFIGURATION
 # ============================================================
 
-BASE_DIR = Path(r"D:\Animal disease Prediction")
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 # ACTUAL IMAGE LOCATION
 RAW_DATA_DIR = BASE_DIR / "rawdata"

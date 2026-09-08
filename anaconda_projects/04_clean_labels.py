@@ -5,7 +5,7 @@ from pathlib import Path
 # CONFIGURATION
 # ============================================================
 
-BASE_DIR = Path(r"D:\Animal disease Prediction")
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 INPUT_FILE = BASE_DIR / "image_master.csv"
 OUTPUT_FILE = BASE_DIR / "image_master_cleaned.csv"

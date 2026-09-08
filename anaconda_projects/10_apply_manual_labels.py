@@ -1,21 +1,19 @@
 import os
 import pandas as pd
+from pathlib import Path
 
 # ============================================================
 # CONFIGURATION
 # ============================================================
 
-BASE_DIR = r"D:\Animal disease Prediction"
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 INPUT_CSV = os.path.join(
     BASE_DIR,
     "image_master_cleaned.csv"
 )
 
-INSPECTION_CSV = os.path.join(
-    BASE_DIR,
-    "mastitis_inspection.csv"
-)
+INSPECTION_CSV = BASE_DIR / "mastitis_inspection.csv"
 
 OUTPUT_CSV = os.path.join(
     BASE_DIR,
@@ -258,7 +256,11 @@ else:
 # ============================================================
 
 remaining = df[
-    df["disease"].astype(str).str.strip()
+    df["disease"]
+    .astype(str)
+    .str.strip()
+    .str.lower()
+    .str.replace("_", " ")
     == "mastitis normal"
 ]
 
