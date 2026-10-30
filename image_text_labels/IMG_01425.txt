@@ -1,0 +1,4 @@
+Image ID: IMG_01425
+Image Path: Cow/Foot_and_Mouth/pigf 10d-3WM-1.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

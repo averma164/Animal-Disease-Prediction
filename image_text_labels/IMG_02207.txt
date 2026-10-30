@@ -1,0 +1,4 @@
+Image ID: IMG_02207
+Image Path: Cow/Healthy/imgs383.jpg
+Animal: Cow
+Disease: Healthy

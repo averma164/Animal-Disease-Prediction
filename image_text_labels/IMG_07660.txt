@@ -1,0 +1,4 @@
+Image ID: IMG_07660
+Image Path: Dog/ringworm/Day-28-of-ringworm-treatment_00001_jpg.rf.08f316c1bddd37b29d109208e848fa82.jpg
+Animal: Dog
+Disease: Ringworm

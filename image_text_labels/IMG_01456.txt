@@ -1,0 +1,4 @@
+Image ID: IMG_01456
+Image Path: Cow/Foot_and_Mouth/teats_healing occuredWM.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

@@ -1,0 +1,4 @@
+Image ID: IMG_07688
+Image Path: Dog/ringworm/flea_allergy-46-_jpg.rf.3ec538c2d321dc725a3050aa40e375d1.jpg
+Animal: Dog
+Disease: Ringworm

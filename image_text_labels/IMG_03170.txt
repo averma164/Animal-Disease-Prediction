@@ -1,0 +1,4 @@
+Image ID: IMG_03170
+Image Path: Cow/Healthy/Normal_Skin_594-resized.jpg
+Animal: Cow
+Disease: Healthy

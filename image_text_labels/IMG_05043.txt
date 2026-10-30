@@ -1,0 +1,4 @@
+Image ID: IMG_05043
+Image Path: Cow/Mastitis/hyp21-e1515374009194-1024x763-1-400x284.jpg
+Animal: Cow
+Disease: Mastitis

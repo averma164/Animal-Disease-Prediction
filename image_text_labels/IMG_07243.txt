@@ -1,0 +1,4 @@
+Image ID: IMG_07243
+Image Path: Dog/Mange/P30_png_jpg.rf.98845c5bd4ba3a111bb96639cbac074a.jpg
+Animal: Dog
+Disease: Mange

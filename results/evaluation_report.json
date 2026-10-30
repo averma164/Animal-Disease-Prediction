@@ -1,0 +1,69 @@
+{
+    "Cow": {
+        "test_accuracy": 0.9052,
+        "weighted_f1": 0.9053,
+        "num_test_images": 696,
+        "num_classes": 6,
+        "diseases": [
+            "Foot_and_Mouth",
+            "Healthy",
+            "Lumpy_Skin",
+            "Mastitis",
+            "Ringworm",
+            "Warts"
+        ]
+    },
+    "Dog": {
+        "test_accuracy": 0.8123,
+        "weighted_f1": 0.8136,
+        "num_test_images": 522,
+        "num_classes": 13,
+        "diseases": [
+            "Dental Disease",
+            "Distemper",
+            "Eye Infection",
+            "Fungal Infection",
+            "Healthy",
+            "Hot Spots",
+            "Kennel Cough",
+            "Mange",
+            "Parvovirus",
+            "Ringworm",
+            "Skin Allergy",
+            "Tick Infestation",
+            "Worm Infection"
+        ]
+    },
+    "Cat": {
+        "test_accuracy": 0.58,
+        "weighted_f1": 0.5741,
+        "num_test_images": 100,
+        "num_classes": 9,
+        "diseases": [
+            "Dental Disease",
+            "Ear Mites",
+            "Eye Infection",
+            "Fungal Infection",
+            "Ringworm",
+            "Scabies",
+            "Skin Allergy",
+            "Urinary Tract Infection",
+            "Worm Infection"
+        ]
+    },
+    "Fish": {
+        "test_accuracy": 0.798,
+        "weighted_f1": 0.798,
+        "num_test_images": 99,
+        "num_classes": 7,
+        "diseases": [
+            "Bacterial Red disease",
+            "Bacterial diseases - Aeromoniasis",
+            "Bacterial gill disease",
+            "Fungal diseases Saprolegniasis",
+            "Healthy Fish",
+            "Parasitic diseases",
+            "Viral diseases White tail disease"
+        ]
+    }
+}

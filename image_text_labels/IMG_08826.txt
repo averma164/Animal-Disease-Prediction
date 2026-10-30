@@ -1,0 +1,4 @@
+Image ID: IMG_08826
+Image Path: Dog/Worm_Infection/Image_31.webp
+Animal: Dog
+Disease: Worm_Infection

@@ -1,0 +1,4 @@
+Image ID: IMG_06793
+Image Path: Dog/Mange/2024-05-13-134214_4_jpg.rf.a5348ef49e70868822aeb67dbd7a72b8.jpg
+Animal: Dog
+Disease: Mange

@@ -1,0 +1,4 @@
+Image ID: IMG_00922
+Image Path: Cow/Foot_and_Mouth/FMD-foot-lesions-13_jpg.rf.abb26b8d7043297c0e75bcf8351b4f71.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

@@ -1,0 +1,4 @@
+Image ID: IMG_00783
+Image Path: Cow/Foot_and_Mouth/10-foot-mouth-disease-fmd-ulcers-palate_jpg.rf.9e4fc1e5ef96c8b52bc0926753aa14ef.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

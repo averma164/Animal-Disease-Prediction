@@ -1,0 +1,4 @@
+Image ID: IMG_05643
+Image Path: Dog/Fungal_Infection/Fungal_Image_2_jpg.rf.ecb97d36e52ba6692d9b15930be42b47.jpg
+Animal: Dog
+Disease: Fungal_Infection

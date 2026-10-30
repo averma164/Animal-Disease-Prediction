@@ -1,0 +1,4 @@
+Image ID: IMG_00907
+Image Path: Cow/Foot_and_Mouth/Diseased-lower-lip-mucosa-1_jpg.rf.656c2f2ace58622ad3cdf334de2cbf7d.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

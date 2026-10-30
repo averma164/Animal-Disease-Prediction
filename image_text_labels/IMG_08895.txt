@@ -1,0 +1,4 @@
+Image ID: IMG_08895
+Image Path: Dog/Worm_Infection/Image_99.png
+Animal: Dog
+Disease: Worm_Infection

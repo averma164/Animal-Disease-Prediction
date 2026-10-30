@@ -1,0 +1,4 @@
+Image ID: IMG_06367
+Image Path: Dog/Healthy/mota-ru-cute-dog-1477384405_jpg.rf.a9b675506bd30852784c1dbea73bf9d3.jpg
+Animal: Dog
+Disease: Healthy

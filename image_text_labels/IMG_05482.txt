@@ -1,0 +1,4 @@
+Image ID: IMG_05482
+Image Path: Dog/Distemper/Image_13.jpg
+Animal: Dog
+Disease: Distemper

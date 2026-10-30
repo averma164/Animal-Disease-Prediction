@@ -1,0 +1,4 @@
+Image ID: IMG_00850
+Image Path: Cow/Foot_and_Mouth/cow-hoof-with-FMD-sores-600px_jpg.rf.86afd67f9e5b83ed050d1817d6533408.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

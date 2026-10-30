@@ -1,0 +1,4 @@
+Image ID: IMG_00822
+Image Path: Cow/Foot_and_Mouth/bvd-md-bulbs-heel-lesion_jpg.rf.eaa3c17e2429635c02a37cf37be06e79.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

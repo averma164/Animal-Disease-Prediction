@@ -1,0 +1,4 @@
+Image ID: IMG_02963
+Image Path: Cow/Healthy/Normal_Skin_431.png
+Animal: Cow
+Disease: Healthy

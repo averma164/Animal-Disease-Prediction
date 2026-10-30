@@ -1,0 +1,4 @@
+Image ID: IMG_03473
+Image Path: Cow/Lumpy_Skin/1661079691_india-lumpy-disease1660851739-0_jpg.rf.2cb5e70afd694eaf9667ac70eddde5d9.jpg
+Animal: Cow
+Disease: Lumpy_Skin

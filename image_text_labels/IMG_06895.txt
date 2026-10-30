@@ -1,0 +1,4 @@
+Image ID: IMG_06895
+Image Path: Dog/Mange/2024-05-13-164141_jpg.rf.8881934be89965726774ecba660b4a79.jpg
+Animal: Dog
+Disease: Mange

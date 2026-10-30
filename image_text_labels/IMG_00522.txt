@@ -1,0 +1,4 @@
+Image ID: IMG_00522
+Image Path: Cat/Skin_Allergy/Image_64.png
+Animal: Cat
+Disease: Skin_Allergy

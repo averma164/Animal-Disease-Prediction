@@ -1,0 +1,4 @@
+Image ID: IMG_00347
+Image Path: Cat/Ringworm/Image_40.png
+Animal: Cat
+Disease: Ringworm

@@ -1,0 +1,4 @@
+Image ID: IMG_06246
+Image Path: Dog/Healthy/HK0P2T-1-920x518_jpg.rf.86436bea5e5f5ac61aa3b7da94c45093.jpg
+Animal: Dog
+Disease: Healthy

@@ -1,0 +1,4 @@
+Image ID: IMG_08740
+Image Path: Dog/Tick_Infestation/Image_24.jpg
+Animal: Dog
+Disease: Tick_Infestation

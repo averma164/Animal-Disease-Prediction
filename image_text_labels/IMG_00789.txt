@@ -1,0 +1,4 @@
+Image ID: IMG_00789
+Image Path: Cow/Foot_and_Mouth/13-contagious-ovine-digital-dermatitis-codd_jpg.rf.12e4f18746a7b74bf28ab0f08c5cf574.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

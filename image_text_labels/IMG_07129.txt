@@ -1,0 +1,4 @@
+Image ID: IMG_07129
+Image Path: Dog/Mange/IMG_5217_jpeg_jpg.rf.844ded275935c4c9e296c47f26733004.jpg
+Animal: Dog
+Disease: Mange

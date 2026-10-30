@@ -1,0 +1,4 @@
+Image ID: IMG_03455
+Image Path: Cow/Healthy/temp_file_1701668698491_jpeg_jpg.rf.fd2da2c50c925f6b46de0c8e534f415d.jpg
+Animal: Cow
+Disease: Healthy

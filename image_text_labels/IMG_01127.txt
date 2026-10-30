@@ -1,0 +1,4 @@
+Image ID: IMG_01127
+Image Path: Cow/Foot_and_Mouth/Goat mouth vesicles 20121211-1WM.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

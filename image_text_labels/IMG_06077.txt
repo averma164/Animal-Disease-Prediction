@@ -1,0 +1,4 @@
+Image ID: IMG_06077
+Image Path: Dog/Healthy/heal-the-gut-to-heal-the-skin-642781_1024x_jpg.rf.fcfab9a439f7509db54a9ed4bb5cac80.jpg
+Animal: Dog
+Disease: Healthy

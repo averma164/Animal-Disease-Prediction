@@ -1,0 +1,4 @@
+Image ID: IMG_02471
+Image Path: Cow/Healthy/Non-diseased-muzzle-25-with-tongue_jpg.rf.571d3080801a799dd603bf117c5f3ddf.jpg
+Animal: Cow
+Disease: Healthy

@@ -1,0 +1,4 @@
+Image ID: IMG_01411
+Image Path: Cow/Foot_and_Mouth/mouth_4-5_days_6WM.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

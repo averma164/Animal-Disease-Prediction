@@ -1,0 +1,4 @@
+Image ID: IMG_00849
+Image Path: Cow/Foot_and_Mouth/cow-drooling-from-mouth-and-nose-FMD-600px_jpg.rf.9badff79778af6445c0dede3ab525dab.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

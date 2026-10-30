@@ -1,0 +1,4 @@
+Image ID: IMG_06446
+Image Path: Dog/Hot_Spots/Image_14.jpg
+Animal: Dog
+Disease: Hot_Spots

@@ -1,0 +1,4 @@
+Image ID: IMG_02395
+Image Path: Cow/Healthy/Jerseycattle32.jpg
+Animal: Cow
+Disease: Healthy

@@ -1,0 +1,4 @@
+Image ID: IMG_06438
+Image Path: Dog/Healthy/skin-cancer-bumps-dog_jpg.rf.837192aff03f1c5ea680c820c307d197.jpg
+Animal: Dog
+Disease: Healthy

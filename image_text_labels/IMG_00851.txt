@@ -1,0 +1,4 @@
+Image ID: IMG_00851
+Image Path: Cow/Foot_and_Mouth/Cow-mouth-with-teeth-1_jpg.rf.a9c236bf6340651ed8daa2cd99650d17.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

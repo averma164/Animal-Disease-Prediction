@@ -1,11 +1,27 @@
-# Python
+# Python & Database
 __pycache__/
 *.pyc
 .venv/
 venv/
+env/
+*.db
+*.sqlite3
 
-# Raw images
+# Jupyter & Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Large Datasets & Archives
 rawdata/
+rawdata.zip
+*.zip
+*.tar.gz
+
+# Model Weights (exceeds GitHub 100MB limit; hosted via GitHub Releases/Drive)
+models/*.keras
+models/*.h5
+*.keras
+*.h5
 
 # Generated datasets
 prepared_dataset/
@@ -27,10 +43,8 @@ class_mapping/
 mastitis_inspection/
 mastitis_inspection.csv
 
-# IDE
+# IDE & OS
 .vscode/
 .idea/
-
-# OS
 Thumbs.db
 .DS_Store

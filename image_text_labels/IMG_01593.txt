@@ -1,0 +1,4 @@
+Image ID: IMG_01593
+Image Path: Cow/Healthy/BB29012024091841_muzzle_png_jpg.rf.e3d3c8f37ac2184d50ff0d8280834da7.jpg
+Animal: Cow
+Disease: Healthy

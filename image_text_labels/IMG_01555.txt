@@ -1,0 +1,4 @@
+Image ID: IMG_01555
+Image Path: Cow/Healthy/Ayrshirecattle84.jpg
+Animal: Cow
+Disease: Healthy

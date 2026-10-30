@@ -1,0 +1,4 @@
+Image ID: IMG_06720
+Image Path: Dog/Mange/1-57-_png_jpg.rf.946805334b444f8273bb75f46f403071.jpg
+Animal: Dog
+Disease: Mange

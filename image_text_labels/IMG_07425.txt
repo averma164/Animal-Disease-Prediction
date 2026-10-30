@@ -1,0 +1,4 @@
+Image ID: IMG_07425
+Image Path: Dog/Parvovirus/Image_58.png
+Animal: Dog
+Disease: Parvovirus

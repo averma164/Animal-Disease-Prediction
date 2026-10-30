@@ -1,0 +1,4 @@
+Image ID: IMG_00444
+Image Path: Cat/Scabies/Image_82.jpg
+Animal: Cat
+Disease: Scabies

@@ -1,0 +1,4 @@
+Image ID: IMG_01415
+Image Path: Cow/Foot_and_Mouth/mouth_5-7_days_2WM.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

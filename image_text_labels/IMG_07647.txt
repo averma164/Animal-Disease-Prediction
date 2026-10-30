@@ -1,0 +1,4 @@
+Image ID: IMG_07647
+Image Path: Dog/ringworm/BUTI-NA-LANG-AT-LAGI-AKONG-MAY-STOCK-AKO-NITONG-GAMOT-NA-ITO-000146_png_jpg.rf.007b52540b69bde5013316c0f8789143.jpg
+Animal: Dog
+Disease: Ringworm

@@ -1,0 +1,4 @@
+Image ID: IMG_08996
+Image Path: Fish/Bacterial_gill_disease/Bacterial gill disease (1).jpeg
+Animal: Fish
+Disease: Bacterial_gill_disease

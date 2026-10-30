@@ -1,0 +1,52 @@
+{
+    "animal": "Dog",
+    "backbone": "EfficientNetB0",
+    "num_classes": 13,
+    "disease_classes": [
+        "Dental Disease",
+        "Distemper",
+        "Eye Infection",
+        "Fungal Infection",
+        "Healthy",
+        "Hot Spots",
+        "Kennel Cough",
+        "Mange",
+        "Parvovirus",
+        "Ringworm",
+        "Skin Allergy",
+        "Tick Infestation",
+        "Worm Infection"
+    ],
+    "disease_to_index": {
+        "Dental Disease": 0,
+        "Distemper": 1,
+        "Eye Infection": 2,
+        "Fungal Infection": 3,
+        "Healthy": 4,
+        "Hot Spots": 5,
+        "Kennel Cough": 6,
+        "Mange": 7,
+        "Parvovirus": 8,
+        "Ringworm": 9,
+        "Skin Allergy": 10,
+        "Tick Infestation": 11,
+        "Worm Infection": 12
+    },
+    "index_to_disease": {
+        "0": "Dental Disease",
+        "1": "Distemper",
+        "2": "Eye Infection",
+        "3": "Fungal Infection",
+        "4": "Healthy",
+        "5": "Hot Spots",
+        "6": "Kennel Cough",
+        "7": "Mange",
+        "8": "Parvovirus",
+        "9": "Ringworm",
+        "10": "Skin Allergy",
+        "11": "Tick Infestation",
+        "12": "Worm Infection"
+    },
+    "best_val_accuracy": 0.7892,
+    "model_file": "D:\\Animal disease Prediction\\models\\Dog_model.keras"
+}

@@ -1,0 +1,4 @@
+Image ID: IMG_03437
+Image Path: Cow/Healthy/sapi_t_1.jpg
+Animal: Cow
+Disease: Healthy

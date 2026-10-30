@@ -1,0 +1,4 @@
+Image ID: IMG_00390
+Image Path: Cat/Scabies/Image_18.jpg
+Animal: Cat
+Disease: Scabies

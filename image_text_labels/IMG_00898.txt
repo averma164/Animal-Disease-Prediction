@@ -1,0 +1,4 @@
+Image ID: IMG_00898
+Image Path: Cow/Foot_and_Mouth/Diseased-foot-15_jpg.rf.6c2a03a5491e2492b4ee4e9936782e2b.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

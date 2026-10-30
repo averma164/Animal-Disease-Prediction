@@ -1,0 +1,4 @@
+Image ID: IMG_00803
+Image Path: Cow/Foot_and_Mouth/5-day-vesicle-steer-foot_jpg.rf.9f6a5b070e044c782556866eac3d3bbe.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

@@ -1,0 +1,4 @@
+Image ID: IMG_05441
+Image Path: Dog/Dental_Disease/Image_48.png
+Animal: Dog
+Disease: Dental_Disease

@@ -1,0 +1,4 @@
+Image ID: IMG_01585
+Image Path: Cow/Healthy/BB19012024175102_left_png_jpeg_jpg.rf.de976a66d9a5f8adf5ded951bb511036.jpg
+Animal: Cow
+Disease: Healthy

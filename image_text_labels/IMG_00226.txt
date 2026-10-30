@@ -1,0 +1,4 @@
+Image ID: IMG_00226
+Image Path: Cat/Eye_Infection/Image_90.jpg
+Animal: Cat
+Disease: Eye_Infection

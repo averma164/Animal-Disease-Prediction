@@ -1,0 +1,4 @@
+Image ID: IMG_09544
+Image Path: Fish/Viral_diseases_White_tail_disease/Viral diseases White tail disease (4).webp
+Animal: Fish
+Disease: Viral_diseases_White_tail_disease

@@ -1,0 +1,4 @@
+Image ID: IMG_00109
+Image Path: Cat/Ear_Mites/Image_32.png
+Animal: Cat
+Disease: Ear_Mites

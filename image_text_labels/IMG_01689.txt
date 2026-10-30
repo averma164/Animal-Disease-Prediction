@@ -1,0 +1,4 @@
+Image ID: IMG_01689
+Image Path: Cow/Healthy/healthymouth_110_jpg.rf.9147eb6b341255cd7eda10ab198ea9c8.jpg
+Animal: Cow
+Disease: Healthy

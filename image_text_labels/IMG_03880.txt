@@ -1,0 +1,4 @@
+Image ID: IMG_03880
+Image Path: Cow/Lumpy_Skin/img1107.jpg
+Animal: Cow
+Disease: Lumpy_Skin

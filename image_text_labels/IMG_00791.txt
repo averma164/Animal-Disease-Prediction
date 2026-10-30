@@ -1,0 +1,4 @@
+Image ID: IMG_00791
+Image Path: Cow/Foot_and_Mouth/15_jpg.rf.0c4dfb2ed31edae315b1272570e30e4f.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

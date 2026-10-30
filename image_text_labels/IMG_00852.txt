@@ -1,0 +1,4 @@
+Image ID: IMG_00852
+Image Path: Cow/Foot_and_Mouth/Cows-head-open-mouth-12_jpg.rf.234073510bc6e40cdc2abf3045ac1fbe.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

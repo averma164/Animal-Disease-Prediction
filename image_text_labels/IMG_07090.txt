@@ -1,0 +1,4 @@
+Image ID: IMG_07090
+Image Path: Dog/Mange/IMG_5185_jpeg_jpg.rf.173bcf728fc4cdebb998ab9b48c3fd94.jpg
+Animal: Dog
+Disease: Mange

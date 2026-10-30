@@ -1,0 +1,4 @@
+Image ID: IMG_01404
+Image Path: Cow/Foot_and_Mouth/mouth_3_days_JMOK3WM.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

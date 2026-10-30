@@ -1,0 +1,4 @@
+Image ID: IMG_00282
+Image Path: Cat/Fungal_Infection/Image_58.png
+Animal: Cat
+Disease: Fungal_Infection

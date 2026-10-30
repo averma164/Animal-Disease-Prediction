@@ -1,0 +1,4 @@
+Image ID: IMG_05362
+Image Path: Cow/Warts/67_JPG.rf.PkXGdgol4IyCylawQX3w.JPG
+Animal: Cow
+Disease: Warts

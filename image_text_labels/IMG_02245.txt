@@ -1,0 +1,4 @@
+Image ID: IMG_02245
+Image Path: Cow/Healthy/imgs421.jpg
+Animal: Cow
+Disease: Healthy

@@ -1,0 +1,4 @@
+Image ID: IMG_08548
+Image Path: Dog/Skin_Allergy/hs5_jpg.rf.55ca66521e012e4026bc1b7022a9781d.jpg
+Animal: Dog
+Disease: Skin_Allergy

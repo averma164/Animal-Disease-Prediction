@@ -1,0 +1,4 @@
+Image ID: IMG_06440
+Image Path: Dog/Healthy/vet-skin-issues-s_1667594728-678x381_jpg.rf.5a4d945784d18b5cbaa6bbdbd0738517.jpg
+Animal: Dog
+Disease: Healthy

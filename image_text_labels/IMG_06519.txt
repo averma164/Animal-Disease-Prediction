@@ -1,0 +1,4 @@
+Image ID: IMG_06519
+Image Path: Dog/Hot_Spots/Image_83.JPG
+Animal: Dog
+Disease: Hot_Spots

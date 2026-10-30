@@ -1,0 +1,4 @@
+Image ID: IMG_01451
+Image Path: Cow/Foot_and_Mouth/SRm 5-7d-1WM-1.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

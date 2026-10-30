@@ -1,0 +1,4 @@
+Image ID: IMG_03565
+Image Path: Cow/Lumpy_Skin/fears-of-lumpy-skin-di_jpg.rf.ae480bec3acf1f0e13d694f4129d536e.jpg
+Animal: Cow
+Disease: Lumpy_Skin

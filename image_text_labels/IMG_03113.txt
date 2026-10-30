@@ -1,0 +1,4 @@
+Image ID: IMG_03113
+Image Path: Cow/Healthy/Normal_Skin_561-resized.jpg
+Animal: Cow
+Disease: Healthy

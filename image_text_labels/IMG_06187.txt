@@ -1,0 +1,4 @@
+Image ID: IMG_06187
+Image Path: Dog/Healthy/HEALTHY_040_jpg.rf.8d26bb63e8d39cdca3e199b2d945cab0.jpg
+Animal: Dog
+Disease: Healthy

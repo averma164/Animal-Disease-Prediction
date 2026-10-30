@@ -1,0 +1,4 @@
+Image ID: IMG_01940
+Image Path: Cow/Healthy/imgs106.jpg
+Animal: Cow
+Disease: Healthy

@@ -1,0 +1,4 @@
+Image ID: IMG_05769
+Image Path: Dog/Healthy/094_jpg.rf.91220fbabb151fb08904f793ec3d42e0.jpg
+Animal: Dog
+Disease: Healthy

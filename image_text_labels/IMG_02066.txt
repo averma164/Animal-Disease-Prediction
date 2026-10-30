@@ -1,0 +1,4 @@
+Image ID: IMG_02066
+Image Path: Cow/Healthy/imgs241.jpg
+Animal: Cow
+Disease: Healthy

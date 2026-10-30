@@ -1,0 +1,4 @@
+Image ID: IMG_08244
+Image Path: Dog/ringworm/WIN_20240514_17_28_21_Pro_jpg.rf.b2dba78403ef990604177e8f6df87eda.jpg
+Animal: Dog
+Disease: Ringworm

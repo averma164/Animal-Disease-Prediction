@@ -1,0 +1,4 @@
+Image ID: IMG_05562
+Image Path: Dog/Eye_Infection/Image_33.png
+Animal: Dog
+Disease: Eye_Infection

@@ -1,0 +1,4 @@
+Image ID: IMG_08378
+Image Path: Dog/Skin_Allergy/1337_jpg.rf.8c653e23ffa15dcd7d3e5e8d35b1920c.jpg
+Animal: Dog
+Disease: Skin_Allergy

@@ -1,0 +1,4 @@
+Image ID: IMG_00919
+Image Path: Cow/Foot_and_Mouth/FMD-clinical-examination_001438_jpg.rf.4f71b57a663b53220b160cb8da031d68.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

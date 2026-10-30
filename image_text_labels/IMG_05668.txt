@@ -1,0 +1,4 @@
+Image ID: IMG_05668
+Image Path: Dog/Fungal_Infection/Image_31.jpg
+Animal: Dog
+Disease: Fungal_Infection

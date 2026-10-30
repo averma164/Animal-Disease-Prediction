@@ -1,0 +1,4 @@
+Image ID: IMG_04989
+Image Path: Cow/Mastitis/26.jpeg
+Animal: Cow
+Disease: Mastitis

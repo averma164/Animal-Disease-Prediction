@@ -1,0 +1,4 @@
+Image ID: IMG_00819
+Image Path: Cow/Foot_and_Mouth/8556484617_a275fe6de6_bWM-1.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

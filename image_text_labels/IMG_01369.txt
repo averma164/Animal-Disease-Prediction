@@ -1,0 +1,4 @@
+Image ID: IMG_01369
+Image Path: Cow/Foot_and_Mouth/mosap-65-_jpg.rf.27361ab8ab767f9da2793e0f31131517.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

@@ -1,0 +1,4 @@
+Image ID: IMG_07348
+Image Path: Dog/Mange/scabies_131_png_jpg.rf.a8c0a4e50ab744cb8367ff296ce3e808.jpg
+Animal: Dog
+Disease: Mange

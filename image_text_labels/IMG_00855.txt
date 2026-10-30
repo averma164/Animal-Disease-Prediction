@@ -1,0 +1,4 @@
+Image ID: IMG_00855
+Image Path: Cow/Foot_and_Mouth/Cows-head-open-mouth-1_jpeg.rf.edd02298b1753b29b465baccd39f437a.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

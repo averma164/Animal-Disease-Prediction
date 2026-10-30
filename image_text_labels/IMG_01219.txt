@@ -1,0 +1,4 @@
+Image ID: IMG_01219
+Image Path: Cow/Foot_and_Mouth/moazx-35-_jpg.rf.18901469412025ae9aa9688f3e53704e.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

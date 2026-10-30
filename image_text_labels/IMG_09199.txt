@@ -1,0 +1,4 @@
+Image ID: IMG_09199
+Image Path: Fish/Fungal_diseases_Saprolegniasis/Fungal diseases Saprolegniasis (10).jpeg
+Animal: Fish
+Disease: Fungal_diseases_Saprolegniasis

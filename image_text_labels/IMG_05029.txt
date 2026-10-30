@@ -1,0 +1,4 @@
+Image ID: IMG_05029
+Image Path: Cow/Mastitis/frostbite5_preview-e1515281757816-400x284.jpeg
+Animal: Cow
+Disease: Mastitis

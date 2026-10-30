@@ -1,0 +1,4 @@
+Image ID: IMG_00399
+Image Path: Cat/Scabies/Image_3.jpg
+Animal: Cat
+Disease: Scabies

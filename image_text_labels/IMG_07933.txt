@@ -1,0 +1,4 @@
+Image ID: IMG_07933
+Image Path: Dog/ringworm/R6_png_jpg.rf.98c57725d5a50fc10486602a6e5f3222.jpg
+Animal: Dog
+Disease: Ringworm

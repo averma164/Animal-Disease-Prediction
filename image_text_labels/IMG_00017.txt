@@ -1,0 +1,4 @@
+Image ID: IMG_00017
+Image Path: Cat/Dental_Disease/Image_28.jpg
+Animal: Cat
+Disease: Dental_Disease

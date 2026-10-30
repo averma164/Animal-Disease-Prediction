@@ -1,0 +1,4 @@
+Image ID: IMG_05378
+Image Path: Cow/Warts/75_jpg.rf.L8yECZdXMZ3EUotw9UdQ.jpg
+Animal: Cow
+Disease: Warts

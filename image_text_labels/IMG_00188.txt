@@ -1,0 +1,4 @@
+Image ID: IMG_00188
+Image Path: Cat/Eye_Infection/Image_47.jpg
+Animal: Cat
+Disease: Eye_Infection

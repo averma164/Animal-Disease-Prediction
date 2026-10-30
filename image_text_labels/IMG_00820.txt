@@ -1,0 +1,4 @@
+Image ID: IMG_00820
+Image Path: Cow/Foot_and_Mouth/9-foot-mouth-disease-fmd-lesions-palate_jpg.rf.ee6267def11c42df80f0216650087bec.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

@@ -1,0 +1,4 @@
+Image ID: IMG_03454
+Image Path: Cow/Healthy/temp_file_1701172509025_jpeg_jpg.rf.8a74909e8f58a1e4ef2a33ddf39e8cfd.jpg
+Animal: Cow
+Disease: Healthy

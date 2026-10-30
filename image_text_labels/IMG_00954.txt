@@ -1,0 +1,4 @@
+Image ID: IMG_00954
+Image Path: Cow/Foot_and_Mouth/FMD-Knuckles-_8-Copy_jpeg.rf.0aea6ce7508c368c9d27d0d2a5a2eea6.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

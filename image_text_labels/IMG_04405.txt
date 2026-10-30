@@ -1,0 +1,4 @@
+Image ID: IMG_04405
+Image Path: Cow/Lumpy_Skin/LS-16_jpg.rf.d42328fa83abbd2dc733d428ea5f2dc1.jpg
+Animal: Cow
+Disease: Lumpy_Skin

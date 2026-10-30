@@ -1,0 +1,4 @@
+Image ID: IMG_00914
+Image Path: Cow/Foot_and_Mouth/FMD-bov-mouth-2-Copy-10-_jpg.rf.58f303588be0dbdc905eb1dfd29281df.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

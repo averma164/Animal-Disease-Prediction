@@ -1,0 +1,4 @@
+Image ID: IMG_00300
+Image Path: Cat/Fungal_Infection/Image_78.jpg
+Animal: Cat
+Disease: Fungal_Infection

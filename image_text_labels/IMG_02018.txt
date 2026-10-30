@@ -1,0 +1,4 @@
+Image ID: IMG_02018
+Image Path: Cow/Healthy/imgs189.jpg
+Animal: Cow
+Disease: Healthy

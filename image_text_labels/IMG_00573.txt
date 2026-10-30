@@ -1,0 +1,4 @@
+Image ID: IMG_00573
+Image Path: Cat/Urinary_Tract_Infection/Image_47.webp
+Animal: Cat
+Disease: Urinary_Tract_Infection

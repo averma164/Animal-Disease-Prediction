@@ -1,0 +1,4 @@
+Image ID: IMG_01961
+Image Path: Cow/Healthy/imgs129.jpg
+Animal: Cow
+Disease: Healthy

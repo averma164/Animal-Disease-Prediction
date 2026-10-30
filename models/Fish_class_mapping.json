@@ -1,0 +1,34 @@
+{
+    "animal": "Fish",
+    "backbone": "EfficientNetB0",
+    "num_classes": 7,
+    "disease_classes": [
+        "Bacterial Red disease",
+        "Bacterial diseases - Aeromoniasis",
+        "Bacterial gill disease",
+        "Fungal diseases Saprolegniasis",
+        "Healthy Fish",
+        "Parasitic diseases",
+        "Viral diseases White tail disease"
+    ],
+    "disease_to_index": {
+        "Bacterial Red disease": 0,
+        "Bacterial diseases - Aeromoniasis": 1,
+        "Bacterial gill disease": 2,
+        "Fungal diseases Saprolegniasis": 3,
+        "Healthy Fish": 4,
+        "Parasitic diseases": 5,
+        "Viral diseases White tail disease": 6
+    },
+    "index_to_disease": {
+        "0": "Bacterial Red disease",
+        "1": "Bacterial diseases - Aeromoniasis",
+        "2": "Bacterial gill disease",
+        "3": "Fungal diseases Saprolegniasis",
+        "4": "Healthy Fish",
+        "5": "Parasitic diseases",
+        "6": "Viral diseases White tail disease"
+    },
+    "best_val_accuracy": 0.875,
+    "model_file": "D:\\Animal disease Prediction\\models\\Fish_model.keras"
+}

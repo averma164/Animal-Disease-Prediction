@@ -1,0 +1,4 @@
+Image ID: IMG_02411
+Image Path: Cow/Healthy/Jerseycattle7.jpg
+Animal: Cow
+Disease: Healthy

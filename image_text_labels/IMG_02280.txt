@@ -1,0 +1,4 @@
+Image ID: IMG_02280
+Image Path: Cow/Healthy/imgs456.jpg
+Animal: Cow
+Disease: Healthy

@@ -1,0 +1,4 @@
+Image ID: IMG_02495
+Image Path: Cow/Healthy/Non-diseased-muzzle-30_jpg.rf.20e51e444a0733a77050156fbc7dfb3a.jpg
+Animal: Cow
+Disease: Healthy

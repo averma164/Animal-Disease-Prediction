@@ -1,0 +1,4 @@
+Image ID: IMG_08583
+Image Path: Dog/Skin_Allergy/Hypersensitivity_2_jpg.rf.258c60a23197a73051799b46e7e66181.jpg
+Animal: Dog
+Disease: Skin_Allergy

@@ -1,0 +1,4 @@
+Image ID: IMG_00203
+Image Path: Cat/Eye_Infection/Image_61.jpg
+Animal: Cat
+Disease: Eye_Infection

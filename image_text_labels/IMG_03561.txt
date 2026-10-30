@@ -1,0 +1,4 @@
+Image ID: IMG_03561
+Image Path: Cow/Lumpy_Skin/FB_IMG_1662698182041_jpg.rf.db0507afac22f43996f7770c4c85141c.jpg
+Animal: Cow
+Disease: Lumpy_Skin

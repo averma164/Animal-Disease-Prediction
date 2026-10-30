@@ -1,0 +1,4 @@
+Image ID: IMG_03552
+Image Path: Cow/Lumpy_Skin/A-LSDV-infected-cow_h2_jpg.rf.1505b92e339a0e4428a8acf5fa1b324c.jpg
+Animal: Cow
+Disease: Lumpy_Skin

@@ -1,0 +1,4 @@
+Image ID: IMG_05180
+Image Path: Cow/Ringworm/13_webp.rf.rnz2x35ThX8i6CHh4pt4.webp
+Animal: Cow
+Disease: Ringworm

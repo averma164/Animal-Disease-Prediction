@@ -1,0 +1,4 @@
+Image ID: IMG_00796
+Image Path: Cow/Foot_and_Mouth/3-foot-mouth-disease-fmd-salivation-vesicles_jpg.rf.6f2bf9567ac7172684005cadfedb69c0.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

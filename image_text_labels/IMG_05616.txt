@@ -1,0 +1,4 @@
+Image ID: IMG_05616
+Image Path: Dog/Fungal_Infection/FUNGAL-INFECTION_007_jpg.rf.2b0e0aad14c7b26bc0aca0f2bd6e8d79.jpg
+Animal: Dog
+Disease: Fungal_Infection

@@ -1,0 +1,330 @@
+{
+    "Cat": {
+        "Dental Disease": [
+            "bad breath",
+            "drooling",
+            "difficulty eating",
+            "pawing at mouth",
+            "red or swollen gums",
+            "yellow or brown teeth",
+            "loss of appetite",
+            "weight loss"
+        ],
+        "Ear Mites": [
+            "scratching ears",
+            "head shaking",
+            "dark discharge in ears",
+            "odor from ears",
+            "crusty ears",
+            "hair loss around ears",
+            "ear irritation"
+        ],
+        "Eye Infection": [
+            "eye discharge",
+            "red eyes",
+            "squinting",
+            "swollen eyelids",
+            "cloudy eyes",
+            "excessive tearing",
+            "pawing at eyes",
+            "eye crust"
+        ],
+        "Fungal Infection": [
+            "skin lesions",
+            "hair loss",
+            "itching",
+            "crusty skin",
+            "scaly patches",
+            "redness",
+            "thickened skin"
+        ],
+        "Ringworm": [
+            "circular hair loss",
+            "circular skin lesions",
+            "itching",
+            "scaly skin",
+            "crusty patches",
+            "broken hair",
+            "red ring shaped patches"
+        ],
+        "Scabies": [
+            "intense itching",
+            "hair loss",
+            "crusty skin",
+            "skin redness",
+            "skin thickening",
+            "sores from scratching",
+            "restlessness"
+        ],
+        "Skin Allergy": [
+            "itching",
+            "redness",
+            "hair loss",
+            "excessive grooming",
+            "skin rash",
+            "sneezing",
+            "watery eyes",
+            "skin inflammation"
+        ],
+        "Urinary Tract Infection": [
+            "frequent urination",
+            "difficulty urinating",
+            "blood in urine",
+            "crying when urinating",
+            "licking genital area",
+            "urinating outside litter box",
+            "loss of appetite",
+            "lethargy"
+        ],
+        "Worm Infection": [
+            "vomiting",
+            "diarrhea",
+            "weight loss",
+            "distended abdomen",
+            "worms in stool",
+            "scooting",
+            "loss of appetite",
+            "dull coat"
+        ]
+    },
+    "Dog": {
+        "Dental Disease": [
+            "bad breath",
+            "drooling",
+            "difficulty eating",
+            "pawing at mouth",
+            "red or swollen gums",
+            "yellow or brown teeth",
+            "loss of appetite",
+            "tooth loss"
+        ],
+        "Distemper": [
+            "fever",
+            "nasal discharge",
+            "eye discharge",
+            "coughing",
+            "lethargy",
+            "vomiting",
+            "diarrhea",
+            "seizures",
+            "muscle twitching"
+        ],
+        "Eye Infection": [
+            "eye discharge",
+            "red eyes",
+            "squinting",
+            "swollen eyelids",
+            "cloudy eyes",
+            "excessive tearing",
+            "pawing at eyes"
+        ],
+        "Fungal Infection": [
+            "skin lesions",
+            "hair loss",
+            "itching",
+            "crusty skin",
+            "scaly patches",
+            "redness",
+            "thickened skin"
+        ],
+        "Healthy": [
+            "normal appetite",
+            "normal energy",
+            "no visible symptoms"
+        ],
+        "Hot Spots": [
+            "intense itching",
+            "red moist skin",
+            "hair loss",
+            "oozing sores",
+            "licking and biting area",
+            "skin infection",
+            "foul odor from skin"
+        ],
+        "Kennel Cough": [
+            "persistent cough",
+            "honking cough",
+            "retching",
+            "nasal discharge",
+            "sneezing",
+            "lethargy",
+            "loss of appetite",
+            "low fever"
+        ],
+        "Mange": [
+            "intense itching",
+            "hair loss",
+            "crusty skin",
+            "skin redness",
+            "skin thickening",
+            "sores",
+            "scaly patches",
+            "restlessness"
+        ],
+        "Parvovirus": [
+            "vomiting",
+            "severe diarrhea",
+            "bloody stool",
+            "lethargy",
+            "fever",
+            "loss of appetite",
+            "dehydration",
+            "weakness"
+        ],
+        "Ringworm": [
+            "circular hair loss",
+            "circular skin lesions",
+            "itching",
+            "scaly skin",
+            "crusty patches",
+            "broken hair",
+            "red ring shaped patches"
+        ],
+        "Skin Allergy": [
+            "itching",
+            "redness",
+            "hair loss",
+            "excessive licking",
+            "skin rash",
+            "sneezing",
+            "skin inflammation",
+            "hot skin"
+        ],
+        "Tick Infestation": [
+            "ticks visible on skin",
+            "itching",
+            "skin irritation",
+            "hair loss at bite sites",
+            "restlessness",
+            "anemia",
+            "lethargy"
+        ],
+        "Worm Infection": [
+            "vomiting",
+            "diarrhea",
+            "weight loss",
+            "distended abdomen",
+            "worms in stool",
+            "scooting",
+            "loss of appetite",
+            "dull coat"
+        ]
+    },
+    "Cow": {
+        "Foot_and_Mouth": [
+            "blisters on mouth",
+            "blisters on hooves",
+            "lameness",
+            "fever",
+            "drooling",
+            "reduced milk production",
+            "loss of appetite",
+            "blisters on teats"
+        ],
+        "Healthy": [
+            "normal appetite",
+            "normal milk production",
+            "normal gait",
+            "no visible symptoms"
+        ],
+        "Lumpy_Skin": [
+            "lumps on skin",
+            "fever",
+            "swollen lymph nodes",
+            "skin nodules",
+            "nasal discharge",
+            "eye discharge",
+            "reduced milk production",
+            "loss of appetite"
+        ],
+        "Mastitis": [
+            "swollen udder",
+            "hot udder",
+            "painful udder",
+            "abnormal milk",
+            "reduced milk production",
+            "milk clots",
+            "fever",
+            "loss of appetite"
+        ],
+        "Ringworm": [
+            "circular hair loss",
+            "circular skin lesions",
+            "crusty patches",
+            "scaly skin",
+            "itching",
+            "thickened skin"
+        ],
+        "Warts": [
+            "warts on skin",
+            "warts on muzzle",
+            "warts around eyes",
+            "rough skin growths",
+            "cauliflower like growths",
+            "warts on teats"
+        ]
+    },
+    "Fish": {
+        "Bacterial Red disease": [
+            "red spots on body",
+            "red streaks on fins",
+            "hemorrhaging",
+            "ulcers",
+            "lethargy",
+            "loss of appetite",
+            "abnormal swimming"
+        ],
+        "Bacterial diseases - Aeromoniasis": [
+            "skin ulcers",
+            "redness",
+            "hemorrhaging",
+            "scale loss",
+            "dropsy",
+            "fin rot",
+            "lethargy",
+            "loss of appetite"
+        ],
+        "Bacterial gill disease": [
+            "rapid gill movement",
+            "gasping at surface",
+            "pale or dark gills",
+            "lethargy",
+            "loss of appetite",
+            "reduced activity",
+            "swimming near surface"
+        ],
+        "Fungal diseases Saprolegniasis": [
+            "white or grey cotton wool patches",
+            "fuzzy growth on skin",
+            "lesions",
+            "scale loss",
+            "lethargy",
+            "loss of appetite"
+        ],
+        "Healthy Fish": [
+            "normal swimming",
+            "normal appetite",
+            "bright color",
+            "clear eyes",
+            "no visible symptoms"
+        ],
+        "Parasitic diseases": [
+            "white spots on body",
+            "scratching against objects",
+            "clamped fins",
+            "rapid breathing",
+            "lethargy",
+            "loss of appetite",
+            "cloudy eyes"
+        ],
+        "Viral diseases White tail disease": [
+            "white tail",
+            "white patches on tail",
+            "necrosis of tail",
+            "abnormal swimming",
+            "lethargy",
+            "loss of appetite",
+            "tail erosion"
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+Image ID: IMG_08615
+Image Path: Dog/Skin_Allergy/Image_11.jpg
+Animal: Dog
+Disease: Skin_Allergy

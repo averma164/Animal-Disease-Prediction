@@ -1,0 +1,4 @@
+Image ID: IMG_00878
+Image Path: Cow/Foot_and_Mouth/Diseased-dental-pad-32_jpg.rf.237d8e030fd1ba04ec5604912d653314.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

@@ -1,0 +1,4 @@
+Image ID: IMG_05002
+Image Path: Cow/Mastitis/chaps-6.1.mouthpiece-400x284.png
+Animal: Cow
+Disease: Mastitis

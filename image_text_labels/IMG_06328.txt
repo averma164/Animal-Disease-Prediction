@@ -1,0 +1,4 @@
+Image ID: IMG_06328
+Image Path: Dog/Healthy/Image_24_jpg.rf.b89093071ff1433e6670a409a2e92bc3.jpg
+Animal: Dog
+Disease: Healthy

@@ -1,0 +1,4 @@
+Image ID: IMG_00814
+Image Path: Cow/Foot_and_Mouth/8-malignant-catarral-fever-mcf_jpg.rf.2cb8cde45c1ed57b436f8ea6fb820072.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

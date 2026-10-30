@@ -1,0 +1,4 @@
+Image ID: IMG_06439
+Image Path: Dog/Healthy/Untitled-design-2020-06-15T212709-126-1_png_jpg.rf.b568128e26b65b966cbd64df3020583c.jpg
+Animal: Dog
+Disease: Healthy

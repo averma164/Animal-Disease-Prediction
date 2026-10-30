@@ -1,0 +1,4 @@
+Image ID: IMG_06072
+Image Path: Dog/Healthy/EPC_SkinHealthy_3_canva_jpg.rf.40bac7bb52ae19d78a2acffda029d848.jpg
+Animal: Dog
+Disease: Healthy

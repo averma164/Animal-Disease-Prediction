@@ -1,0 +1,4 @@
+Image ID: IMG_06550
+Image Path: Dog/Kennel_Cough/Image_26.jpg
+Animal: Dog
+Disease: Kennel_Cough

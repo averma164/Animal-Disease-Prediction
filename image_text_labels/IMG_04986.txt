@@ -1,0 +1,4 @@
+Image ID: IMG_04986
+Image Path: Cow/Lumpy_Skin/WhatsApp-Image-2022-10-07-at-4-31-52-PM_jpeg_jpg.rf.c9c8b764843d9403293292c9566688e0.jpg
+Animal: Cow
+Disease: Lumpy_Skin

@@ -1,0 +1,4 @@
+Image ID: IMG_06437
+Image Path: Dog/Healthy/shutterstock_31893043-1_jpg.rf.ae090dda4d7a40e0e3688d30fd143d88.jpg
+Animal: Dog
+Disease: Healthy

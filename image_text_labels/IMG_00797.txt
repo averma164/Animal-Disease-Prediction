@@ -1,0 +1,4 @@
+Image ID: IMG_00797
+Image Path: Cow/Foot_and_Mouth/4-day-lesions-steer-tongue-and-gum-_jpg.rf.729c255aa5151999a0b2c1c235e5c7e7.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

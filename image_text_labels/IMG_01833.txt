@@ -1,0 +1,4 @@
+Image ID: IMG_01833
+Image Path: Cow/Healthy/image_UHJvZHVjdDoxODQw_1e735b53_jpg.rf.6b20c40858113ced0e124dbf50779b18.jpg
+Animal: Cow
+Disease: Healthy

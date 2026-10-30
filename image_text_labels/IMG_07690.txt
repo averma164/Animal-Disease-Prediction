@@ -1,0 +1,4 @@
+Image ID: IMG_07690
+Image Path: Dog/ringworm/hotspot-16-_jpg.rf.005d9984ea495ca3cfffc258716f8eeb.jpg
+Animal: Dog
+Disease: Ringworm

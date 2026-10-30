@@ -1,0 +1,4 @@
+Image ID: IMG_08540
+Image Path: Dog/Skin_Allergy/hs2_jpg.rf.22bf9fc778278e58ed1843771a7bbf01.jpg
+Animal: Dog
+Disease: Skin_Allergy

@@ -1,0 +1,4 @@
+Image ID: IMG_09167
+Image Path: Fish/Bacterial_Red_disease/Bacterial Red disease (6).jpeg
+Animal: Fish
+Disease: Bacterial_Red_disease

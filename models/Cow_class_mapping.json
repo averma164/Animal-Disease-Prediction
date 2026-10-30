@@ -1,0 +1,35 @@
+{
+    "animal": "Cow",
+    "backbone": "EfficientNetB3",
+    "image_size": [
+        300,
+        300
+    ],
+    "num_classes": 6,
+    "disease_classes": [
+        "Foot_and_Mouth",
+        "Healthy",
+        "Lumpy_Skin",
+        "Mastitis",
+        "Ringworm",
+        "Warts"
+    ],
+    "disease_to_index": {
+        "Foot_and_Mouth": 0,
+        "Healthy": 1,
+        "Lumpy_Skin": 2,
+        "Mastitis": 3,
+        "Ringworm": 4,
+        "Warts": 5
+    },
+    "index_to_disease": {
+        "0": "Foot_and_Mouth",
+        "1": "Healthy",
+        "2": "Lumpy_Skin",
+        "3": "Mastitis",
+        "4": "Ringworm",
+        "5": "Warts"
+    },
+    "best_val_accuracy": 0.8929,
+    "model_file": "D:\\Animal disease Prediction\\models\\Cow_model.keras"
+}

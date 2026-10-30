@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Disease Prediction System</title>
+    <meta name="description" content="AI-powered animal disease prediction using image analysis and symptom checking for Cats, Dogs, Cows, and Fish.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark:      #0a0e1a;
+            --bg-card:      #111827;
+            --bg-card2:     #1a2235;
+            --accent1:      #6366f1;
+            --accent2:      #8b5cf6;
+            --accent3:      #06b6d4;
+            --green:        #10b981;
+            --yellow:       #f59e0b;
+            --red:          #ef4444;
+            --text-primary: #f1f5f9;
+            --text-secondary:#94a3b8;
+            --border:       rgba(99,102,241,0.18);
+            --border-light: rgba(255,255,255,0.06);
+            --shadow:       0 25px 50px rgba(0,0,0,0.5);
+            --radius:       16px;
+            --radius-sm:    10px;
+        }
+
+        * { margin:0; padding:0; box-sizing:border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Background gradient orbs */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -200px; left: -200px;
+            width: 600px; height: 600px;
+            background: radial-gradient(circle, rgba(99,102,241,0.12) 0%, transparent 70%);
+            pointer-events: none; z-index: 0;
+        }
+        body::after {
+            content: '';
+            position: fixed;
+            bottom: -200px; right: -200px;
+            width: 500px; height: 500px;
+            background: radial-gradient(circle, rgba(6,182,212,0.10) 0%, transparent 70%);
+            pointer-events: none; z-index: 0;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative; z-index: 1;
+        }
+
+        /* ---- HEADER ---- */
+        header {
+            padding: 40px 0 20px;
+            text-align: center;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(99,102,241,0.15);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 6px 16px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent1);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(28px, 5vw, 46px);
+            font-weight: 800;
+            background: linear-gradient(135deg, #f1f5f9 0%, var(--accent1) 50%, var(--accent3) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+            margin-bottom: 14px;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 16px;
+            max-width: 560px;
+            margin: 0 auto 32px;
+            line-height: 1.7;
+        }
+
+        /* ---- ANIMAL CARDS ---- */
+        .animal-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            margin-bottom: 32px;
+        }
+
+        @media (max-width: 600px) {
+            .animal-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        .animal-card {
+            background: var(--bg-card);
+            border: 2px solid var(--border-light);
+            border-radius: var(--radius);
+            padding: 22px 16px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .animal-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(99,102,241,0.1), transparent);
+            opacity: 0;
+            transition: opacity 0.25s;
+        }
+
+        .animal-card:hover::before { opacity: 1; }
+        .animal-card:hover { border-color: rgba(99,102,241,0.5); transform: translateY(-3px); }
+
+        .animal-card.selected {
+            border-color: var(--accent1);
+            background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(139,92,246,0.1));
+            box-shadow: 0 0 24px rgba(99,102,241,0.25);
+        }
+
+        .animal-emoji { font-size: 42px; display: block; margin-bottom: 10px; }
+        .animal-name  { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+
+        /* ---- MAIN FORM CARD ---- */
+        .form-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 24px;
+        }
+
+        .section-title {
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title .step-badge {
+            width: 28px; height: 28px;
+            background: linear-gradient(135deg, var(--accent1), var(--accent2));
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 13px; font-weight: 700; color: white; flex-shrink: 0;
+        }
+
+        /* ---- IMAGE UPLOAD ---- */
+        .upload-area {
+            border: 2px dashed rgba(99,102,241,0.35);
+            border-radius: var(--radius);
+            padding: 40px 24px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+            background: rgba(99,102,241,0.03);
+        }
+
+        .upload-area:hover, .upload-area.dragover {
+            border-color: var(--accent1);
+            background: rgba(99,102,241,0.08);
+        }
+
+        .upload-area input[type="file"] {
+            position: absolute; inset: 0; opacity: 0; cursor: pointer;
+        }
+
+        .upload-icon { font-size: 40px; margin-bottom: 12px; }
+        .upload-text { color: var(--text-secondary); font-size: 14px; }
+        .upload-text strong { color: var(--accent1); }
+
+        #image-preview-wrap { display: none; margin-top: 16px; }
+        #image-preview {
+            max-height: 220px;
+            max-width: 100%;
+            border-radius: var(--radius-sm);
+            object-fit: contain;
+            border: 1px solid var(--border-light);
+        }
+
+        /* ---- SYMPTOMS ---- */
+        #symptoms-section { display: none; }
+
+        .symptom-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            max-height: 280px;
+            overflow-y: auto;
+            padding: 4px 2px;
+        }
+
+        .symptom-grid::-webkit-scrollbar { width: 6px; }
+        .symptom-grid::-webkit-scrollbar-track { background: var(--bg-card2); border-radius: 4px; }
+        .symptom-grid::-webkit-scrollbar-thumb { background: var(--accent1); border-radius: 4px; }
+
+        .symptom-tag {
+            display: inline-flex; align-items: center; gap: 7px;
+            background: var(--bg-card2);
+            border: 1px solid var(--border-light);
+            border-radius: 999px;
+            padding: 8px 14px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.18s;
+            user-select: none;
+        }
+
+        .symptom-tag:hover { border-color: rgba(99,102,241,0.5); background: rgba(99,102,241,0.12); }
+
+        .symptom-tag.selected {
+            background: rgba(99,102,241,0.25);
+            border-color: var(--accent1);
+            color: var(--text-primary);
+        }
+
+        .symptom-tag input { display: none; }
+
+        /* ---- PREDICT BUTTON ---- */
+        .predict-btn {
+            width: 100%;
+            padding: 16px 32px;
+            background: linear-gradient(135deg, var(--accent1), var(--accent2));
+            border: none;
+            border-radius: var(--radius);
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+            overflow: hidden;
+            letter-spacing: 0.02em;
+        }
+
+        .predict-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(99,102,241,0.4);
+        }
+
+        .predict-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+
+        /* ---- LOADING ---- */
+        #loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .spinner {
+            width: 50px; height: 50px;
+            border: 4px solid rgba(99,102,241,0.2);
+            border-top-color: var(--accent1);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* ---- RESULTS ---- */
+        #results { display: none; }
+
+        .result-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 28px;
+            flex-wrap: wrap;
+        }
+
+        .result-animal-img {
+            width: 90px; height: 90px;
+            border-radius: var(--radius-sm);
+            object-fit: cover;
+            border: 2px solid var(--border);
+        }
+
+        .result-top-disease {
+            flex: 1;
+        }
+
+        .result-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+            font-weight: 500;
+        }
+
+        .result-disease-name {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .confidence-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            border-radius: 999px;
+            padding: 5px 14px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .pill-high    { background: rgba(16,185,129,0.15); color: #10b981; border:1px solid rgba(16,185,129,0.3); }
+        .pill-medium  { background: rgba(245,158,11,0.15); color: #f59e0b; border:1px solid rgba(245,158,11,0.3); }
+        .pill-low     { background: rgba(239,68,68,0.15);  color: #ef4444; border:1px solid rgba(239,68,68,0.3); }
+
+        /* Prediction bars */
+        .prediction-list { display: flex; flex-direction: column; gap: 14px; }
+
+        .pred-item {
+            background: var(--bg-card2);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-sm);
+            padding: 16px 18px;
+            position: relative;
+            overflow: hidden;
+            transition: border-color 0.2s;
+        }
+
+        .pred-item.top { border-color: rgba(99,102,241,0.4); }
+
+        .pred-item::before {
+            content: '';
+            position: absolute;
+            left: 0; top: 0; bottom: 0;
+            background: linear-gradient(90deg, rgba(99,102,241,0.15), transparent);
+            width: var(--bar-width);
+            transition: width 1s cubic-bezier(0.4,0,0.2,1);
+        }
+
+        .pred-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative; z-index: 1;
+        }
+
+        .pred-name { font-size: 14px; font-weight: 600; }
+        .pred-rank { font-size: 12px; color: var(--text-secondary); }
+
+        .pred-right { text-align: right; }
+        .pred-pct { font-size: 18px; font-weight: 800; color: var(--accent1); }
+        .pred-pct-label { font-size: 11px; color: var(--text-secondary); }
+
+        .score-row {
+            display: flex;
+            gap: 16px;
+            margin-top: 8px;
+            font-size: 12px;
+            color: var(--text-secondary);
+            position: relative; z-index: 1;
+        }
+
+        .score-chip {
+            background: rgba(255,255,255,0.04);
+            border-radius: 6px;
+            padding: 3px 8px;
+        }
+
+        /* Info box */
+        .info-box {
+            background: rgba(245,158,11,0.08);
+            border: 1px solid rgba(245,158,11,0.2);
+            border-radius: var(--radius-sm);
+            padding: 16px 20px;
+            margin-top: 24px;
+            font-size: 13px;
+            color: #fbbf24;
+            line-height: 1.7;
+        }
+
+        .info-box strong { display: block; margin-bottom: 4px; }
+
+        /* Mode badge */
+        .mode-badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            background: rgba(6,182,212,0.1);
+            border: 1px solid rgba(6,182,212,0.25);
+            border-radius: 999px;
+            padding: 5px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent3);
+            margin-bottom: 20px;
+        }
+
+        /* Reset button */
+        .reset-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            border-radius: var(--radius);
+            padding: 12px 24px;
+            font-size: 14px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 16px;
+            transition: all 0.2s;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .reset-btn:hover { border-color: var(--accent1); color: var(--text-primary); }
+
+        /* Divider */
+        .divider { height: 1px; background: var(--border-light); margin: 24px 0; }
+
+        /* Error */
+        .error-box {
+            background: rgba(239,68,68,0.08);
+            border: 1px solid rgba(239,68,68,0.25);
+            border-radius: var(--radius-sm);
+            padding: 16px 20px;
+            color: #f87171;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border-light);
+            margin-top: 40px;
+        }
+
+        /* Selected symptoms display */
+        #selected-count {
+            font-size: 13px;
+            color: var(--accent3);
+            margin-left: auto;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- HEADER -->
+    <header>
+        <div class="badge">🤖 AI-Powered Veterinary Tool</div>
+        <h1>Animal Disease<br>Prediction System</h1>
+        <p class="subtitle">
+            Upload an image of your animal and select symptoms to get
+            an AI-based disease prediction using computer vision and symptom analysis.
+        </p>
+    </header>
+
+    <!-- MAIN FORM -->
+    <div id="form-section">
+
+        <!-- STEP 1: Select Animal -->
+        <div class="form-card">
+            <div class="section-title">
+                <div class="step-badge">1</div>
+                Select Animal Type
+            </div>
+
+            <div class="animal-grid" id="animal-grid">
+                {% for animal in animals %}
+                <div class="animal-card" id="card-{{ animal }}" onclick="selectAnimal('{{ animal }}')" tabindex="0">
+                    <span class="animal-emoji">{{ animal_emoji[animal] }}</span>
+                    <span class="animal-name">{{ animal }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- STEP 2: Upload Image -->
+        <div class="form-card">
+            <div class="section-title">
+                <div class="step-badge">2</div>
+                Upload Image
+            </div>
+
+            <div class="upload-area" id="upload-area">
+                <input type="file" id="image-input" accept="image/*" onchange="previewImage(event)">
+                <div class="upload-icon">🖼️</div>
+                <div class="upload-text">
+                    <strong>Click to upload</strong> or drag & drop an image<br>
+                    <span style="font-size:12px;">JPG, PNG, WEBP • Max 16MB</span>
+                </div>
+            </div>
+
+            <div id="image-preview-wrap">
+                <img id="image-preview" src="" alt="Preview">
+                <p style="color:var(--text-secondary); font-size:13px; margin-top:8px;" id="image-filename"></p>
+            </div>
+        </div>
+
+        <!-- STEP 3: Symptoms -->
+        <div class="form-card" id="symptoms-section">
+            <div class="section-title">
+                <div class="step-badge">3</div>
+                Select Symptoms
+                <span id="selected-count" style="display:none;"></span>
+            </div>
+            <p style="color:var(--text-secondary); font-size:13px; margin-bottom:16px;">
+                Select all symptoms you observe. This step is optional but improves accuracy.
+            </p>
+            <div class="symptom-grid" id="symptom-grid"></div>
+        </div>
+
+        <!-- PREDICT BUTTON -->
+        <button class="predict-btn" id="predict-btn" onclick="runPrediction()" disabled>
+            🔍 Predict Disease
+        </button>
+
+        <!-- LOADING -->
+        <div id="loading">
+            <div class="spinner"></div>
+            <p style="color:var(--text-secondary);">Analyzing image and symptoms...</p>
+            <p style="color:var(--text-secondary); font-size:13px; margin-top:6px;">This may take 10–30 seconds on CPU</p>
+        </div>
+
+    </div><!-- /form-section -->
+
+    <!-- RESULTS -->
+    <div id="results"></div>
+
+    <footer>
+        ⚠️ This is a research prototype. Predictions are not veterinary diagnoses.
+        Always consult a qualified veterinarian for proper diagnosis and treatment.
+    </footer>
+
+</div><!-- /container -->
+
+<script>
+let selectedAnimal = null;
+let selectedSymptoms = new Set();
+let imageSelected = false;
+
+// ---- SELECT ANIMAL ----
+function selectAnimal(animal) {
+    selectedAnimal = animal;
+    document.querySelectorAll('.animal-card').forEach(c => c.classList.remove('selected'));
+    document.getElementById('card-' + animal).classList.add('selected');
+    loadSymptoms(animal);
+    checkCanPredict();
+}
+
+// ---- LOAD SYMPTOMS VIA API ----
+async function loadSymptoms(animal) {
+    try {
+        const res = await fetch('/get_symptoms/' + animal);
+        const data = await res.json();
+
+        const section = document.getElementById('symptoms-section');
+        const grid = document.getElementById('symptom-grid');
+        section.style.display = 'block';
+        grid.innerHTML = '';
+        selectedSymptoms.clear();
+        updateSelectedCount();
+
+        data.symptoms.forEach(symptom => {
+            const tag = document.createElement('label');
+            tag.className = 'symptom-tag';
+            tag.innerHTML = `
+                <input type="checkbox" value="${symptom}" onchange="toggleSymptom(this, '${symptom}')">
+                ${symptom}
+            `;
+            grid.appendChild(tag);
+        });
+    } catch(e) {
+        console.error('Failed to load symptoms:', e);
+    }
+}
+
+// ---- TOGGLE SYMPTOM ----
+function toggleSymptom(checkbox, symptom) {
+    const tag = checkbox.parentElement;
+    if (checkbox.checked) {
+        selectedSymptoms.add(symptom);
+        tag.classList.add('selected');
+    } else {
+        selectedSymptoms.delete(symptom);
+        tag.classList.remove('selected');
+    }
+    updateSelectedCount();
+}
+
+function updateSelectedCount() {
+    const el = document.getElementById('selected-count');
+    if (selectedSymptoms.size > 0) {
+        el.style.display = 'inline';
+        el.textContent = selectedSymptoms.size + ' symptom(s) selected';
+    } else {
+        el.style.display = 'none';
+    }
+}
+
+// ---- IMAGE PREVIEW ----
+function previewImage(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = e => {
+        document.getElementById('image-preview').src = e.target.result;
+        document.getElementById('image-preview-wrap').style.display = 'block';
+        document.getElementById('image-filename').textContent = '📎 ' + file.name;
+    };
+    reader.readAsDataURL(file);
+
+    imageSelected = true;
+    checkCanPredict();
+}
+
+// ---- DRAG & DROP ----
+const uploadArea = document.getElementById('upload-area');
+uploadArea.addEventListener('dragover', e => { e.preventDefault(); uploadArea.classList.add('dragover'); });
+uploadArea.addEventListener('dragleave', () => uploadArea.classList.remove('dragover'));
+uploadArea.addEventListener('drop', e => {
+    e.preventDefault();
+    uploadArea.classList.remove('dragover');
+    const file = e.dataTransfer.files[0];
+    if (file) {
+        const dt = new DataTransfer();
+        dt.items.add(file);
+        document.getElementById('image-input').files = dt.files;
+        previewImage({ target: { files: [file] } });
+    }
+});
+
+// ---- ENABLE PREDICT BUTTON ----
+function checkCanPredict() {
+    const btn = document.getElementById('predict-btn');
+    btn.disabled = !(selectedAnimal && imageSelected);
+}
+
+// ---- RUN PREDICTION ----
+async function runPrediction() {
+    const imageInput = document.getElementById('image-input');
+    if (!imageInput.files[0] || !selectedAnimal) return;
+
+    // Show loading
+    document.getElementById('predict-btn').disabled = true;
+    document.getElementById('loading').style.display = 'block';
+    document.getElementById('results').style.display = 'none';
+
+    const formData = new FormData();
+    formData.append('animal', selectedAnimal);
+    formData.append('image', imageInput.files[0]);
+    selectedSymptoms.forEach(s => formData.append('symptoms[]', s));
+
+    try {
+        const res = await fetch('/predict', { method: 'POST', body: formData });
+        const data = await res.json();
+
+        document.getElementById('loading').style.display = 'none';
+
+        if (data.error) {
+            showError(data.error);
+        } else {
+            showResults(data);
+        }
+    } catch(e) {
+        document.getElementById('loading').style.display = 'none';
+        showError('Network error: ' + e.message);
+    } finally {
+        document.getElementById('predict-btn').disabled = false;
+    }
+}
+
+// ---- SHOW ERROR ----
+function showError(msg) {
+    const el = document.getElementById('results');
+    el.style.display = 'block';
+    el.innerHTML = `<div class="error-box">❌ <strong>Error:</strong> ${msg}</div>`;
+    el.scrollIntoView({ behavior: 'smooth' });
+}
+
+// ---- SHOW RESULTS ----
+function showResults(data) {
+    const el = document.getElementById('results');
+    el.style.display = 'block';
+
+    const top = data.top_predictions[0];
+    const modeLabel = data.mode === 'image_and_symptoms'
+        ? '🔬 Image + Symptom Analysis'
+        : '🖼️ Image Analysis Only';
+
+    // Confidence pill class
+    function pillClass(label) {
+        const l = label.toLowerCase();
+        if (l.includes('high')) return 'pill-high';
+        if (l.includes('medium') || l.includes('low')) return 'pill-medium';
+        return 'pill-low';
+    }
+
+    // Build prediction bars
+    const bars = data.top_predictions.map((p, i) => {
+        const barW = Math.max(p.percentage, 4);
+        const isTop = i === 0;
+        return `
+        <div class="pred-item ${isTop ? 'top' : ''}" style="--bar-width:${barW}%;">
+            <div class="pred-row">
+                <div>
+                    <div class="pred-name">${p.disease}</div>
+                    <div class="pred-rank">${isTop ? '🏆 Top match' : '#' + p.rank + ' match'}</div>
+                </div>
+                <div class="pred-right">
+                    <div class="pred-pct">${p.percentage}%</div>
+                    <div class="pred-pct-label">${p.confidence_label}</div>
+                </div>
+            </div>
+            <div class="score-row">
+                <span class="score-chip">🖼️ Image: ${(p.image_score*100).toFixed(1)}%</span>
+                ${data.mode === 'image_and_symptoms' 
+                    ? `<span class="score-chip">💊 Symptom: ${(p.symptom_score*100).toFixed(1)}%</span>` 
+                    : ''}
+            </div>
+        </div>`;
+    }).join('');
+
+    const symptomsUsed = data.symptoms_used && data.symptoms_used.length > 0
+        ? `<p style="margin-top:10px;font-size:13px;color:var(--text-secondary);">
+            <strong style="color:var(--text-primary);">Symptoms selected:</strong>
+            ${data.symptoms_used.map(s => `<span style="background:rgba(99,102,241,0.15);border-radius:4px;padding:2px 8px;margin:2px;display:inline-block;">${s}</span>`).join('')}
+           </p>`
+        : '';
+
+    el.innerHTML = `
+        <div class="form-card">
+            <div class="mode-badge">${modeLabel}</div>
+
+            <div class="result-header">
+                <img class="result-animal-img" src="${data.image_data}" alt="Uploaded image">
+                <div class="result-top-disease">
+                    <div class="result-label">${data.emoji} ${data.animal} — Most Likely Diagnosis</div>
+                    <div class="result-disease-name">${top.disease}</div>
+                    <span class="confidence-pill ${pillClass(top.confidence_label)}">
+                        ${top.confidence_label} Confidence — ${top.percentage}%
+                    </span>
+                </div>
+            </div>
+
+            ${symptomsUsed}
+
+            <div class="divider"></div>
+
+            <div class="section-title" style="margin-bottom:16px;">
+                Top Predictions
+            </div>
+            <div class="prediction-list">${bars}</div>
+
+            <div class="info-box" style="margin-top:24px;">
+                <strong>⚠️ Research Prototype Disclaimer</strong>
+                This system is an experimental machine-learning tool intended for
+                educational and research purposes only. The predictions shown are
+                model confidence scores — NOT medical probabilities or veterinary
+                diagnoses. Please consult a licensed veterinarian for any health
+                concerns about your animal.
+            </div>
+
+            <button class="reset-btn" onclick="resetForm()">← Make Another Prediction</button>
+        </div>
+    `;
+
+    el.scrollIntoView({ behavior: 'smooth' });
+}
+
+// ---- RESET FORM ----
+function resetForm() {
+    document.getElementById('results').style.display = 'none';
+    document.getElementById('form-section').style.display = 'block';
+    document.getElementById('image-preview-wrap').style.display = 'none';
+    document.getElementById('image-input').value = '';
+    document.getElementById('symptom-grid').innerHTML = '';
+    document.getElementById('symptoms-section').style.display = 'none';
+    document.querySelectorAll('.animal-card').forEach(c => c.classList.remove('selected'));
+    selectedAnimal = null;
+    selectedSymptoms.clear();
+    imageSelected = false;
+    checkCanPredict();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>

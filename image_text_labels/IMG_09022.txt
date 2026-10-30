@@ -1,0 +1,4 @@
+Image ID: IMG_09022
+Image Path: Fish/Bacterial_gill_disease/Bacterial gill disease (17).jpg
+Animal: Fish
+Disease: Bacterial_gill_disease

@@ -1,0 +1,4 @@
+Image ID: IMG_04083
+Image Path: Cow/Lumpy_Skin/img1540_jpg.rf.ca2d7a31711159d44edde9e1adc0d678.jpg
+Animal: Cow
+Disease: Lumpy_Skin

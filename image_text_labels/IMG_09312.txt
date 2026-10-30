@@ -1,0 +1,4 @@
+Image ID: IMG_09312
+Image Path: Fish/Healthy_Fish/Healthy Fish (14).jpeg
+Animal: Fish
+Disease: Healthy_Fish

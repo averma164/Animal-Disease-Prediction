@@ -1,0 +1,4 @@
+Image ID: IMG_09452
+Image Path: Fish/Parasitic_diseases/Parasitic diseases (5).jpeg
+Animal: Fish
+Disease: Parasitic_diseases

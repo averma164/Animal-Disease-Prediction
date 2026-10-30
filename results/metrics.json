@@ -1,0 +1,27 @@
+{
+    "phase_1": {
+        "epochs_run": 10,
+        "best_val_accuracy": 0.1352,
+        "best_val_loss": 3.0203,
+        "final_train_accuracy": 0.0548
+    },
+    "phase_2": {
+        "epochs_run": 10,
+        "best_val_accuracy": 0.0932,
+        "best_val_loss": 3.118,
+        "final_train_accuracy": 0.0458
+    },
+    "overall": {
+        "best_val_accuracy": 0.1352,
+        "num_classes": 27,
+        "train_images": 6566,
+        "val_images": 1405,
+        "image_size": [
+            224,
+            224
+        ],
+        "batch_size": 32,
+        "backbone": "MobileNetV2",
+        "model_file": "D:\\Animal disease Prediction\\models\\animal_disease_model.keras"
+    }
+}

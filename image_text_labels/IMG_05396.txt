@@ -1,0 +1,4 @@
+Image ID: IMG_05396
+Image Path: Dog/Dental_Disease/Image_15.jpg
+Animal: Dog
+Disease: Dental_Disease

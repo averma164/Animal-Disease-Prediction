@@ -1,0 +1,4 @@
+Image ID: IMG_05435
+Image Path: Dog/Dental_Disease/Image_44.webp
+Animal: Dog
+Disease: Dental_Disease

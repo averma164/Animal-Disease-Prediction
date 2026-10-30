@@ -1,0 +1,4 @@
+Image ID: IMG_00800
+Image Path: Cow/Foot_and_Mouth/5-Buffalo-cow-in-Laos-with-FMD-feeling-much-better-following-topical-treatment-with-Tri-Solfen_jpg.rf.3bfb82aa87195cd4946572f309dde523.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

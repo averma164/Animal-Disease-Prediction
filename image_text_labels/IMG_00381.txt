@@ -1,0 +1,4 @@
+Image ID: IMG_00381
+Image Path: Cat/Scabies/Image_1.jpg
+Animal: Cat
+Disease: Scabies

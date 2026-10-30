@@ -1,0 +1,4 @@
+Image ID: IMG_05024
+Image Path: Cow/Mastitis/Drying-chemical-barrier-dip-build-up-build-up-e1515286053269.jpg
+Animal: Cow
+Disease: Mastitis

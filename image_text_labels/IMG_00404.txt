@@ -1,0 +1,4 @@
+Image ID: IMG_00404
+Image Path: Cat/Scabies/Image_42.png
+Animal: Cat
+Disease: Scabies

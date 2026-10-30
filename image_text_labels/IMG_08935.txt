@@ -1,0 +1,4 @@
+Image ID: IMG_08935
+Image Path: Fish/Bacterial_diseases_Aeromoniasis/Bacterial diseases - Aeromoniasis (30).jpg
+Animal: Fish
+Disease: Bacterial_diseases_Aeromoniasis

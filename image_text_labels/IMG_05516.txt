@@ -1,0 +1,4 @@
+Image ID: IMG_05516
+Image Path: Dog/Distemper/Image_63.jpg
+Animal: Dog
+Disease: Distemper

@@ -1,0 +1,4 @@
+Image ID: IMG_03342
+Image Path: Cow/Healthy/RedDanecattle111.jpg
+Animal: Cow
+Disease: Healthy

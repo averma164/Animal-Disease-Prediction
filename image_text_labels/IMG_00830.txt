@@ -1,0 +1,4 @@
+Image ID: IMG_00830
+Image Path: Cow/Foot_and_Mouth/cf2-3d-2WM.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

@@ -1,0 +1,4 @@
+Image ID: IMG_03419
+Image Path: Cow/Healthy/sapi_k_2.jpg
+Animal: Cow
+Disease: Healthy

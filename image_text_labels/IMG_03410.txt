@@ -1,0 +1,4 @@
+Image ID: IMG_03410
+Image Path: Cow/Healthy/sapi_f_7.jpg
+Animal: Cow
+Disease: Healthy

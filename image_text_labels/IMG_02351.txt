@@ -1,0 +1,4 @@
+Image ID: IMG_02351
+Image Path: Cow/Healthy/IMG_20220906_173442_jpg.rf.6eddd80d215675835acbf6e6a4a2ba3e.jpg
+Animal: Cow
+Disease: Healthy

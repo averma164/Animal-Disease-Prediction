@@ -1,0 +1,4 @@
+Image ID: IMG_06034
+Image Path: Dog/Healthy/dogs_179_jpg.rf.4eaf46da364964056ca5187a2b2afe92.jpg
+Animal: Dog
+Disease: Healthy

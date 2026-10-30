@@ -1,0 +1,4 @@
+Image ID: IMG_01442
+Image Path: Cow/Foot_and_Mouth/Screenshot__-_-_-_-_-_-_-_-_-_-_-_-_-_-2_png_jpg.rf.ed1730e2cb886d075645ae0587183d69.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

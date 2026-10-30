@@ -1,0 +1,4 @@
+Image ID: IMG_01922
+Image Path: Cow/Healthy/imgs088.jpg
+Animal: Cow
+Disease: Healthy

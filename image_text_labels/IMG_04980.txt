@@ -1,0 +1,4 @@
+Image ID: IMG_04980
+Image Path: Cow/Lumpy_Skin/vlcsnap-2022-09-13-14h39m24s229_png_jpg.rf.15c942691a8e516ba94394aaabd34112.jpg
+Animal: Cow
+Disease: Lumpy_Skin

@@ -1,0 +1,4 @@
+Image ID: IMG_07708
+Image Path: Dog/ringworm/NEWR20_png_jpg.rf.99bf4a8f0b7bf13a0ee9e9fc4d3c4ebd.jpg
+Animal: Dog
+Disease: Ringworm

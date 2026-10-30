@@ -1,0 +1,4 @@
+Image ID: IMG_02724
+Image Path: Cow/Healthy/Normal_Skin_243_png.rf.2a01e4107cf2bfb3448158bb1c07759d.jpg
+Animal: Cow
+Disease: Healthy

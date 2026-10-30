@@ -1,0 +1,4 @@
+Image ID: IMG_01093
+Image Path: Cow/Foot_and_Mouth/foot-and-mougth-17-_jpeg.rf.0b5f147c70f94a8b30d303116584b5a8.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

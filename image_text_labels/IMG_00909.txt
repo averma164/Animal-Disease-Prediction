@@ -1,0 +1,4 @@
+Image ID: IMG_00909
+Image Path: Cow/Foot_and_Mouth/DSCN0081.JPG
+Animal: Cow
+Disease: Foot_and_Mouth

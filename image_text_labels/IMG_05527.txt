@@ -1,0 +1,4 @@
+Image ID: IMG_05527
+Image Path: Dog/Distemper/Image_79.jpg
+Animal: Dog
+Disease: Distemper

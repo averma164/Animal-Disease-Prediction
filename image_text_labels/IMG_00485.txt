@@ -1,0 +1,4 @@
+Image ID: IMG_00485
+Image Path: Cat/Skin_Allergy/Image_33.jpg
+Animal: Cat
+Disease: Skin_Allergy

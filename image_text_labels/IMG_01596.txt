@@ -1,0 +1,4 @@
+Image ID: IMG_01596
+Image Path: Cow/Healthy/BrownSwisscattle1.jpg
+Animal: Cow
+Disease: Healthy

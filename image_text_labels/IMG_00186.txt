@@ -1,0 +1,4 @@
+Image ID: IMG_00186
+Image Path: Cat/Eye_Infection/Image_45.webp
+Animal: Cat
+Disease: Eye_Infection

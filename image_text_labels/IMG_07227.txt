@@ -1,0 +1,4 @@
+Image ID: IMG_07227
+Image Path: Dog/Mange/P26_png_jpg.rf.896383b655f2c2a12f0c6143d4bb7e1a.jpg
+Animal: Dog
+Disease: Mange

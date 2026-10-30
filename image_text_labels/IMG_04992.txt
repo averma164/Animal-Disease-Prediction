@@ -1,0 +1,4 @@
+Image ID: IMG_04992
+Image Path: Cow/Mastitis/7.jpeg
+Animal: Cow
+Disease: Mastitis

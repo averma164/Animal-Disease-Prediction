@@ -1,0 +1,4 @@
+Image ID: IMG_07400
+Image Path: Dog/Parvovirus/Image_36.png
+Animal: Dog
+Disease: Parvovirus

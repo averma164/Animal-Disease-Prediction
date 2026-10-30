@@ -1,0 +1,4 @@
+Image ID: IMG_01684
+Image Path: Cow/Healthy/BrownSwisscattle9.jpg
+Animal: Cow
+Disease: Healthy

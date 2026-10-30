@@ -1,0 +1,4 @@
+Image ID: IMG_05789
+Image Path: Dog/Healthy/assets_blog_10WaystoImproveDogsSkinandCoat_1604617807349-brown-fluffly-dog-laying-on-bed-with-health-coat_jpg.rf.cd860cd0e877a9b9b8105a29697df102.jpg
+Animal: Dog
+Disease: Healthy

@@ -1,0 +1,4 @@
+Image ID: IMG_05918
+Image Path: Dog/Healthy/dogs_096_jpg.rf.9e36df35ae798f892e0b2d6f78432a60.jpg
+Animal: Dog
+Disease: Healthy

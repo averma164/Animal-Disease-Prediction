@@ -1,0 +1,4 @@
+Image ID: IMG_05487
+Image Path: Dog/Distemper/Image_2.png
+Animal: Dog
+Disease: Distemper

@@ -1,0 +1,4 @@
+Image ID: IMG_03328
+Image Path: Cow/Healthy/Normal_Skin_93.png
+Animal: Cow
+Disease: Healthy

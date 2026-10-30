@@ -1,0 +1,4 @@
+Image ID: IMG_00905
+Image Path: Cow/Foot_and_Mouth/Diseased-foot-9_jpg.rf.682ce915347993a671da52b3be60de48.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

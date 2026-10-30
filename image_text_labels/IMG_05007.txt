@@ -1,0 +1,4 @@
+Image ID: IMG_05007
+Image Path: Cow/Mastitis/Chemical-burn-7-e1515283936872-400x284.jpg
+Animal: Cow
+Disease: Mastitis

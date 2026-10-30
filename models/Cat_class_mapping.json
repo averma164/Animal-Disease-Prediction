@@ -1,0 +1,44 @@
+{
+    "animal": "Cat",
+    "backbone": "EfficientNetB3",
+    "image_size": [
+        300,
+        300
+    ],
+    "num_classes": 9,
+    "disease_classes": [
+        "Dental Disease",
+        "Ear Mites",
+        "Eye Infection",
+        "Fungal Infection",
+        "Ringworm",
+        "Scabies",
+        "Skin Allergy",
+        "Urinary Tract Infection",
+        "Worm Infection"
+    ],
+    "disease_to_index": {
+        "Dental Disease": 0,
+        "Ear Mites": 1,
+        "Eye Infection": 2,
+        "Fungal Infection": 3,
+        "Ringworm": 4,
+        "Scabies": 5,
+        "Skin Allergy": 6,
+        "Urinary Tract Infection": 7,
+        "Worm Infection": 8
+    },
+    "index_to_disease": {
+        "0": "Dental Disease",
+        "1": "Ear Mites",
+        "2": "Eye Infection",
+        "3": "Fungal Infection",
+        "4": "Ringworm",
+        "5": "Scabies",
+        "6": "Skin Allergy",
+        "7": "Urinary Tract Infection",
+        "8": "Worm Infection"
+    },
+    "best_val_accuracy": 0.5644,
+    "model_file": "D:\\Animal disease Prediction\\models\\Cat_model.keras"
+}

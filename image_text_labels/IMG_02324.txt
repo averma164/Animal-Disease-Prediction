@@ -1,0 +1,4 @@
+Image ID: IMG_02324
+Image Path: Cow/Healthy/imgs500.jpg
+Animal: Cow
+Disease: Healthy

@@ -1,0 +1,4 @@
+Image ID: IMG_00813
+Image Path: Cow/Foot_and_Mouth/7-foot-mouth-disease-fmd-vesicle-coronary-band-lesion-lameness_jpg.rf.20c1d98aab173f0706dfe1eea6c08d2e.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

@@ -1,0 +1,4 @@
+Image ID: IMG_00637
+Image Path: Cat/Worm_Infection/Image_27.jpg
+Animal: Cat
+Disease: Worm_Infection

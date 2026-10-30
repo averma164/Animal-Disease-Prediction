@@ -1,0 +1,4 @@
+Image ID: IMG_09298
+Image Path: Fish/Healthy_Fish/Healthy Fish (1).png
+Animal: Fish
+Disease: Healthy_Fish

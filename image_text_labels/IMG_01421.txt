@@ -1,0 +1,4 @@
+Image ID: IMG_01421
+Image Path: Cow/Foot_and_Mouth/P1010992WM-1.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

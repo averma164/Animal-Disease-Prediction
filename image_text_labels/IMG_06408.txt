@@ -1,0 +1,4 @@
+Image ID: IMG_06408
+Image Path: Dog/Healthy/pic47_jpg.rf.fbb0edd32864af711a4cf2ee5ddfb1b0.jpg
+Animal: Dog
+Disease: Healthy

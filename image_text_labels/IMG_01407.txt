@@ -1,0 +1,4 @@
+Image ID: IMG_01407
+Image Path: Cow/Foot_and_Mouth/mouth_4-5_days_2_JMOKWM.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

@@ -1,0 +1,4 @@
+Image ID: IMG_05794
+Image Path: Dog/Healthy/dog-with-beautiful-fur-e1520959404488_jpg.rf.8ccb1a71e8780c316087a364f5f7df7a.jpg
+Animal: Dog
+Disease: Healthy

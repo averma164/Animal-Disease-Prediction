@@ -1,0 +1,4 @@
+Image ID: IMG_01462
+Image Path: Cow/Foot_and_Mouth/tongue_4-5days.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

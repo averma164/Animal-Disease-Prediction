@@ -1,0 +1,4 @@
+Image ID: IMG_05235
+Image Path: Cow/Ringworm/OIP-10-_jpg.rf.93f97e7825dc53c8047b79cecc42e876.jpg
+Animal: Cow
+Disease: Ringworm

@@ -1,0 +1,4 @@
+Image ID: IMG_00991
+Image Path: Cow/Foot_and_Mouth/FMD_11_jpg.rf.fd09ec987cad72e6475a1ab599468f27.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

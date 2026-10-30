@@ -1,0 +1,4 @@
+Image ID: IMG_05783
+Image Path: Dog/Healthy/629e20fa9b40083a59dcea34_Dog-zoomies_Hero_jpg.rf.20f8b2db91d4cd09875e1741067679b0.jpg
+Animal: Dog
+Disease: Healthy

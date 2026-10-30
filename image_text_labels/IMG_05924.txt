@@ -1,0 +1,4 @@
+Image ID: IMG_05924
+Image Path: Dog/Healthy/dogs_105_jpg.rf.ea0cab56c2ff1a84743c481404cd7571.jpg
+Animal: Dog
+Disease: Healthy

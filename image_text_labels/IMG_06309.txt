@@ -1,0 +1,4 @@
+Image ID: IMG_06309
+Image Path: Dog/Healthy/Image_18_jpg.rf.2c15eba42b1ea5832dc53637999aae56.jpg
+Animal: Dog
+Disease: Healthy

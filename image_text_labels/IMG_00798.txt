@@ -1,0 +1,4 @@
+Image ID: IMG_00798
+Image Path: Cow/Foot_and_Mouth/4-foot-mouth-disease-fmd-vesicles-tongue-ulceration_jpg.rf.9d694269a3a8aa837f9903651cc45707.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

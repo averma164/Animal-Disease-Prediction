@@ -1,0 +1,4 @@
+Image ID: IMG_04478
+Image Path: Cow/Lumpy_Skin/LSD-195-_png_jpg.rf.52c1a44847ea00f774cc7128ed5a5c14.jpg
+Animal: Cow
+Disease: Lumpy_Skin

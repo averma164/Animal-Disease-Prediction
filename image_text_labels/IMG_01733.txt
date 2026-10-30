@@ -1,0 +1,4 @@
+Image ID: IMG_01733
+Image Path: Cow/Healthy/HolsteinFriesiancattle111.jpg
+Animal: Cow
+Disease: Healthy

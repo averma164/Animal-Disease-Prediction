@@ -1,0 +1,4 @@
+Image ID: IMG_08781
+Image Path: Dog/Tick_Infestation/Image_71.jpg
+Animal: Dog
+Disease: Tick_Infestation

@@ -1,0 +1,4 @@
+Image ID: IMG_06052
+Image Path: Dog/Healthy/dogs_265_jpg.rf.870d41884fb403b97a8de6e608930149.jpg
+Animal: Dog
+Disease: Healthy

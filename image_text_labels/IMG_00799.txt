@@ -1,0 +1,4 @@
+Image ID: IMG_00799
+Image Path: Cow/Foot_and_Mouth/450px-Foot_and_mouth_disease_in_mouth_jpg.rf.275adc3f09b5fb4d750b7022518c26c6.jpg
+Animal: Cow
+Disease: Foot_and_Mouth

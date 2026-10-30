@@ -1,0 +1,4 @@
+Image ID: IMG_01416
+Image Path: Cow/Foot_and_Mouth/mouth_7-8_days_1WM.jpg
+Animal: Cow
+Disease: Foot_and_Mouth
