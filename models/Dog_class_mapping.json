@@ -1,6 +1,10 @@
 {
     "animal": "Dog",
-    "backbone": "EfficientNetB0",
+    "backbone": "EfficientNetB3",
+    "image_size": [
+        300,
+        300
+    ],
     "num_classes": 13,
     "disease_classes": [
         "Dental Disease",

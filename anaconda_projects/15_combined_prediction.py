@@ -24,7 +24,8 @@ import sys
 import numpy as np
 import tensorflow as tf
 from pathlib import Path
-from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input as mobilenet_preprocess
+from tensorflow.keras.applications.efficientnet import preprocess_input as efficientnet_preprocess
 
 # Add the project root to path so we can import 14_symptom_engine
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -83,13 +84,15 @@ def load_animal_model(animal_name):
 # Cutaneous/lesion diseases rely primarily on visual image evidence
 SYSTEMIC_DISEASES = {
     "Distemper", "Parvovirus", "Worm Infection", "Kennel Cough",
-    "Urinary Tract Infection"
+    "Urinary Tract Infection", "Bacterial diseases - Aeromoniasis",
+    "Viral diseases White tail disease", "Parasitic diseases"
 }
 
 CUTANEOUS_DISEASES = {
     "Ringworm", "Mange", "Lumpy_Skin", "Warts", "Foot_and_Mouth",
     "Tick Infestation", "Ear Mites", "Bacterial gill disease", "Healthy Fish", "Healthy",
-    "Hot Spots", "Fungal Infection", "Skin Allergy"
+    "Hot Spots", "Fungal Infection", "Skin Allergy", "Scabies",
+    "Fungal diseases Saprolegniasis", "Bacterial Red disease"
 }
 
 def get_disease_weights(disease_name):
@@ -132,24 +135,29 @@ def predict_from_image(animal_name, image_path=None, image_bytes=None, use_tta=T
     img = tf.image.decode_image(raw, channels=3, expand_animations=False)
     target_size = model.input_shape[1:3] if model.input_shape and model.input_shape[1] else IMAGE_SIZE
     img1 = tf.image.resize(img, target_size)
-    backbone_name = mapping.get("backbone", "MobileNetV2")
+    backbone_name = mapping.get("backbone", "")
+
+    def apply_preprocess(tensor):
+        if "MobileNet" in backbone_name:
+            return mobilenet_preprocess(tensor)
+        elif "EfficientNet" in backbone_name:
+            return efficientnet_preprocess(tensor)
+        return tensor
 
     if use_tta:
         # 3-view TTA: 1) Original, 2) Horizontal Flip, 3) Subtle Zoom (90% center crop)
         img2 = tf.image.flip_left_right(img1)
         img3 = tf.image.resize(tf.image.central_crop(img1, 0.90), target_size)
 
-        if backbone_name == "MobileNetV2":
-            img1 = preprocess_input(img1)
-            img2 = preprocess_input(img2)
-            img3 = preprocess_input(img3)
+        img1 = apply_preprocess(img1)
+        img2 = apply_preprocess(img2)
+        img3 = apply_preprocess(img3)
 
         batch = tf.stack([img1, img2, img3])
         probs_batch = model.predict(batch, verbose=0)
         probs = np.mean(probs_batch, axis=0)
     else:
-        if backbone_name == "MobileNetV2":
-            img1 = preprocess_input(img1)
+        img1 = apply_preprocess(img1)
         batch = tf.expand_dims(img1, axis=0)
         probs = model.predict(batch, verbose=0)[0]
 

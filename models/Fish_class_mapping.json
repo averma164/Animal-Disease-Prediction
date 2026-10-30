@@ -1,6 +1,10 @@
 {
     "animal": "Fish",
     "backbone": "EfficientNetB0",
+    "image_size": [
+        224,
+        224
+    ],
     "num_classes": 7,
     "disease_classes": [
         "Bacterial Red disease",
